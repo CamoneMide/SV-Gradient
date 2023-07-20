@@ -35,6 +35,17 @@ body{
     
         }
 
+        h2{
+            color: #000;
+            cursor: pointer;
+            transition: 0.6s all ease-in-out;    
+        }
+
+        h2:hover{
+            margin-left: 6px;
+            color: #222;
+        }
+
         .hide{
             display: none;
             font-style: italic;
@@ -136,7 +147,7 @@ body{
 
     footer{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
@@ -170,9 +181,10 @@ body{
         }
 
         footer{
-            padding: 14px 10px;
-    
-        }   
+            flex-direction: row;
+            font-size: 16px;
+            padding: 14px 40px;
+        }
     }
 }
 
